@@ -203,8 +203,8 @@ window.onload = function() {
             var y = Math.min((game.height - 16) / 2 - player.y, 0);
             x = Math.max(game.width,  x + map.width)  - map.width;
             y = Math.max(game.height, y + map.height) - map.height;
-            stage.x = x;
-            stage.y = y;
+            //stage.x = x;
+            //stage.y = y;
         });
     };
     game.start();
